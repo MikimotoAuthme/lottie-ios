@@ -6,7 +6,7 @@ let package = Package(
   platforms: [.iOS("11.0"), .macOS("10.10"), .tvOS("11.0")],
   products: [
     .library(name: "Lottie", type: .dynamic, targets: ["Lottie"]),
-    .library(name: "_LottieCore", type: .dynamic, targets: ["LottieCore"]),
+    .library(name: "LottieCore", type: .dynamic, targets: ["LottieCore"]),
   ],
   dependencies: [
     .package(
